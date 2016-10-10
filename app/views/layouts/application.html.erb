@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Friend-Lee</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div id="logo">
+  <a href="/"><img src="http://i.imgur.com/Zfk8zDa.png"></a>
+  </div>
+<%= yield %>
+<div id ="rodape">
+  <h6>
+   <center> Desenvolvido com amor por: Fernanda Ferreira, Fernanda Maciel, Laura De Bella, Lorena Souza, Maria Iris, Marcilene Fonseca, Nathália Xavier e Patrick Prado. </center>
+       <center> Rails Girls 2016
+    </center>
+  </h6>
+ </div>
+</body>
+</html>
